@@ -1,0 +1,26 @@
+{
+  "root": true,
+  "env": {
+    "es2021": true,
+    "node": true,
+    "jest/globals": true
+  },
+  "extends": ["eslint:recommended", "plugin:jest/recommended"],
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "plugins": ["jest"],
+  "ignorePatterns": ["coverage/", ".npm-cache/", "tmp/"],
+  "overrides": [
+    {
+      "files": ["__tests__/userService.clean.test.js"],
+      "rules": { "jest/no-conditional-in-test": "error" }
+    }
+  ],
+  "rules": {
+    "jest/no-disabled-tests": "warn",
+    "jest/no-conditional-expect": "error",
+    "jest/no-identical-title": "error"
+  }
+}

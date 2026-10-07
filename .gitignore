@@ -1,3 +1,5 @@
 node_modules/
 coverage/
-package-lock.json
+.npm-cache/
+tmp/
+__pycache__/

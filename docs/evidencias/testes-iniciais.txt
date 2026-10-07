@@ -1,0 +1,15 @@
+$ npm test -- --runInBand
+PASS test/userService.smelly.test.js
+  UserService - Suíte de Testes com Smells
+    √ deve criar e buscar um usuário corretamente (1 ms)
+    √ deve desativar usuários se eles não forem administradores
+    √ deve gerar um relatório de usuários formatado
+    √ deve falhar ao criar usuário menor de idade
+    ○ skipped deve retornar uma lista vazia quando não há usuários
+
+Test Suites: 1 passed, 1 total
+Tests:       1 skipped, 4 passed, 5 total
+Snapshots:   0 total
+Time:        3.182 s
+Ran all test suites.
+Test results written to: docs\evidencias\testes-iniciais.json

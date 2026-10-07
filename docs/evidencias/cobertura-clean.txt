@@ -1,0 +1,36 @@
+$ npm run coverage:clean
+----------------|---------|----------|---------|---------|-------------------
+File            | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+----------------|---------|----------|---------|---------|-------------------
+All files       |     100 |      100 |     100 |     100 |                   
+ userService.js |     100 |      100 |     100 |     100 |                   
+----------------|---------|----------|---------|---------|-------------------
+PASS __tests__/userService.clean.test.js
+  UserService - testes de comportamento
+    createUser
+      √ deve criar um usuário ativo com os dados informados (1 ms)
+      √ deve criar um administrador quando solicitado
+      √ deve atribuir IDs diferentes a usuários com os mesmos dados (1 ms)
+      √ deve aceitar um usuário com exatamente 18 anos
+      √ deve rejeitar um usuário com 17 anos (7 ms)
+      √ deve rejeitar a criação quando falta nome
+      √ deve rejeitar a criação quando falta email (1 ms)
+      √ deve rejeitar a criação quando falta idade
+    getUserById
+      √ deve retornar os dados do usuário cadastrado pelo ID
+      √ deve retornar null para um ID inexistente
+    deactivateUser
+      √ deve desativar um usuário comum e preservar seu cadastro
+      √ deve recusar a desativação de um administrador e mantê-lo ativo
+      √ deve retornar false ao tentar desativar um ID inexistente (1 ms)
+    generateUserReport
+      √ deve informar que não há usuários cadastrados
+      √ deve incluir os IDs e nomes de todos os usuários cadastrados
+      √ deve informar o status ativo de um usuário recém-criado
+      √ deve refletir o status inativo após a desativação
+
+Test Suites: 1 passed, 1 total
+Tests:       17 passed, 17 total
+Snapshots:   0 total
+Time:        1.214 s
+Ran all test suites matching /__tests__\\userService.clean.test.js/i.

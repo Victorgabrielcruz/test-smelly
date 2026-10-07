@@ -1,0 +1,4 @@
+validacao-idade-removida / smelly: saída 0, esperada 0
+validacao-idade-removida / clean: saída 1, esperada 1
+apresentacao-relatorio-alterada / smelly: saída 1, esperada 1
+apresentacao-relatorio-alterada / clean: saída 0, esperada 0

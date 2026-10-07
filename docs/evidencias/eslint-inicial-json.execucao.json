@@ -1,0 +1,15 @@
+{
+  "comandoEquivalente": "npx eslint . --format json",
+  "executavel": "node",
+  "argumentos": [
+    "node_modules/eslint/bin/eslint.js",
+    ".",
+    "--format",
+    "json",
+    "--output-file",
+    "docs/evidencias/eslint-inicial.json"
+  ],
+  "codigoSaida": 1,
+  "codigoEsperado": 1,
+  "erroExecucao": null
+}

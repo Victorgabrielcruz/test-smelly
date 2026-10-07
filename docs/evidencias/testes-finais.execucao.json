@@ -1,0 +1,13 @@
+{
+  "comandoEquivalente": "npm test -- --runInBand",
+  "executavel": "node",
+  "argumentos": [
+    "node_modules/jest/bin/jest.js",
+    "--runInBand",
+    "--json",
+    "--outputFile=docs/evidencias/testes-finais.json"
+  ],
+  "codigoSaida": 0,
+  "codigoEsperado": 0,
+  "erroExecucao": null
+}

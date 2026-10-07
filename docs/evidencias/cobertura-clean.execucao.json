@@ -1,0 +1,15 @@
+{
+  "comandoEquivalente": "npm run coverage:clean",
+  "executavel": "node",
+  "argumentos": [
+    "node_modules/jest/bin/jest.js",
+    "__tests__/userService.clean.test.js",
+    "--runInBand",
+    "--coverage",
+    "--collectCoverageFrom=src/userService.js",
+    "--coverageDirectory=coverage/clean"
+  ],
+  "codigoSaida": 0,
+  "codigoEsperado": 0,
+  "erroExecucao": null
+}

@@ -1,0 +1,13 @@
+{
+  "comandoEquivalente": "npm run lint:clean",
+  "executavel": "node",
+  "argumentos": [
+    "node_modules/eslint/bin/eslint.js",
+    "src/",
+    "__tests__/userService.clean.test.js",
+    "--max-warnings=0"
+  ],
+  "codigoSaida": 0,
+  "codigoEsperado": 0,
+  "erroExecucao": null
+}

@@ -1,0 +1,10 @@
+$ npm test -- --runInBand
+PASS __tests__/userService.clean.test.js
+PASS test/userService.smelly.test.js
+
+Test Suites: 2 passed, 2 total
+Tests:       1 skipped, 21 passed, 22 total
+Snapshots:   0 total
+Time:        0.366 s, estimated 3 s
+Ran all test suites.
+Test results written to: docs\evidencias\testes-finais.json
